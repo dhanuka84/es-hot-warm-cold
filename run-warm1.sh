@@ -3,7 +3,7 @@ docker run -p 9202:9202 -p 9302:9302 \
 	--name warm1  --hostname warm1 \
 	--rm \
 	--ulimit nofile=65536:65536 --ulimit memlock=-1:-1 \
-	-e "ES_JAVA_OPTS=-Xms3g -Xmx3g" -e cluster.name=docker_cluster -e bootstrap.memory_lock=true \
+	-e "ES_JAVA_OPTS=-Xms2g -Xmx2g" -e cluster.name=docker_cluster -e bootstrap.memory_lock=true \
 	-e "node.master=false" -e "node.data=true" -e "node.ingest=false"  -e "node.attr.my_node_type=warm" \
 	-e "node.name=warm1" -e "discovery.zen.ping.unicast.hosts=192.168.0.114:9300" \
         -e "search.remote.connect=true"  -e "discovery.zen.minimum_master_nodes=1" \
