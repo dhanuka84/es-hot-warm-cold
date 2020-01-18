@@ -1,0 +1,8 @@
+hotdata/*
+warmdata/*
+colddata/*
+masdata/*
+maslog/*
+hotlog/*
+warmlog/*
+coldlog/*
