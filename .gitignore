@@ -7,9 +7,9 @@ hotlog/*
 warmlog/*
 coldlog/*
 
-coldlog/gc.log
-hotlog/gc.log
-maslog/gc.log
-warmlog/gc.log
+coldlog/*
+hotlog/*
+maslog/*
+warmlog/*
 
 nohup.out

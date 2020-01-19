@@ -101,3 +101,4 @@
 [19572.089s][info][gc] GC(77) Pause Young (Allocation Failure) 877M->344M(1981M) 8.022ms
 [19825.465s][info][gc] GC(78) Pause Young (Allocation Failure) 877M->344M(1981M) 3.272ms
 [20081.689s][info][gc] GC(79) Pause Young (Allocation Failure) 877M->344M(1981M) 4.338ms
+[20335.447s][info][gc] GC(80) Pause Young (Allocation Failure) 877M->344M(1981M) 2.901ms
