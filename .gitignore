@@ -6,3 +6,10 @@ maslog/*
 hotlog/*
 warmlog/*
 coldlog/*
+
+coldlog/gc.log
+hotlog/gc.log
+maslog/gc.log
+warmlog/gc.log
+
+nohup.out
